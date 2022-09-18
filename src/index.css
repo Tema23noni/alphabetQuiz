@@ -1,0 +1,106 @@
+
+body{
+  font-family:  'Oswald', sans-serif;
+  background-color: #27292D;
+}
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px;
+}
+select{
+  display: block;
+  text-align: left;
+  padding: 10px 10px  ;
+  
+  background: none;
+  border: 2px solid #ffffff;
+  border-radius: 20px;
+  color: white;
+  position: relative;
+}
+option{
+  background: none;
+  color: black;
+  font-family:  'Oswald', sans-serif;
+  letter-spacing: 5px;
+}
+
+.logotype{
+  display: flex;
+  align-items: center;
+}
+.logotype__text{
+  text-transform: uppercase;
+  color: rgba(102,157,246);
+  text-align: left;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+.logo{
+  width: 50px;
+  height: 50px;
+  background: url('../public/icons8-перевод-текста-48.png');
+}
+.AlphabetScore{
+  display: flex;
+  
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.TypeAlphabet{
+  display: block;
+  font-size: 36px;
+  margin: 0 0 0 0;
+  
+  color: white;
+  letter-spacing: 3px;
+}
+.Score{
+  display: block;
+  color: white;
+  letter-spacing: 10px;
+  padding: 0;
+  margin: 0;
+}
+.AlphabetQuiz{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.AlphabetQuiz__text{
+  font-size: 100px;
+  font-weight: 600;
+  color: white;
+  margin: 50px 0;
+}
+.FormAplhabet{
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+.InputWord{
+  text-align: center;
+  background: none;
+  border: none ;
+  border-bottom: 2px solid #ffffff ;
+  outline: none;
+  color: white;
+  padding: 5px 0;
+  font-size: 30px;
+  width: 100px;
+  letter-spacing: 2px;
+}
+.error{
+  text-align: center;
+  margin: 50px 0;
+  color: rgb(214, 0, 0);
+  letter-spacing: 3px;
+  font-size: 22px;
+  text-transform: uppercase;
+}
